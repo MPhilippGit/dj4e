@@ -1,3 +1,22 @@
 pomofocus/__pycache__/
 base/__pycache__/
 __pycache__/
+
+# Ignore all __pycache__ directories
+**/__pycache__/
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore other Python cache files
+*.pyc
+*.pyo
+
+# Ignore IDE or editor configurations (optional)
+.vscode/
+.idea/
+*.swp
+
+# Ignore Django-specific files (optional)
+db.sqlite3
+.env
